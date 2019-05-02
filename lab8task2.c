@@ -1,5 +1,5 @@
 //C function which accepts 2 arguments of type int * and swaps them
-#include <stdio.h>
+/*#include <stdio.h>
 
 void swap(int *a, int *b);
 
@@ -22,4 +22,4 @@ void swap(int *a, int *b)
     int tmp = *a;
     *a = *b;
     *b = tmp;
-}
+}*/
