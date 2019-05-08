@@ -1,5 +1,5 @@
 //C function that accepts 3 int * args, assignes the mean of the three numbers to the first argument and zeros the others.
-#include <stdio.h>
+/*#include <stdio.h>
 #include <math.h>
 
 void mean(int *a, int *b, int *c);
@@ -20,4 +20,4 @@ void mean(int *a, int *b, int *c)
     *a = (int)round((*a + *b + *c)/3.0);
     *b = 0;
     *c = 0;
-}
+}*/
