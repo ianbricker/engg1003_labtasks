@@ -6,7 +6,7 @@
 int main() 
 {
     int arrayData[3][3];
-    int x, y, value = 0;
+    int x, y, max = 0;
     FILE *input;
     input = fopen("input", "r");
     
@@ -15,9 +15,9 @@ int main()
         for(int column = 0; column < 3; column++) 
         {
             fscanf(input, "%d", &arrayData[row][column]);
-            if(arrayData[row][column] > value) 
+            if(arrayData[row][column] > max) 
             {
-                value = arrayData[row][column];
+                max = arrayData[row][column];
                 // + 1 so that output appears in (row, column), but isnt indexed from 0
                 x = row + 1; 
                 y = column + 1;
