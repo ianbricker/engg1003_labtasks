@@ -27,6 +27,6 @@ int main()
         
     }
     
-    printf("%d\n(%d,%d)\n" , value, x, y);
+    printf("%d\n(%d,%d)\n" , max, x, y);
     fclose(input);
 }
