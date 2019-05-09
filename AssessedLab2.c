@@ -22,7 +22,7 @@ int main()
     y = 0;
     x = 0;
     
-    for(y = 0; y < 5; y++) 
+    for(y = 0; y < 2; y++) 
     {
         for(x = 0; x < 5; x++) 
         {
