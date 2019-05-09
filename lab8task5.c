@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 //read array data from a file and find greatest value. Print this value 
 //and its indices
@@ -29,4 +29,4 @@ int main()
     
     printf("%d\n(%d,%d)\n" , max, x, y);
     fclose(input);
-}
+}*/
